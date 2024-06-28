@@ -1,0 +1,275 @@
+ /*media Q for tablet */
+ @media only screen and (min-width: 769px) and (max-width: 1200px){
+   /*for Home*/
+    #home{
+       width: 100%;
+        
+       max-width: 1000px;
+     }
+    #home #home-content{
+    margin:  auto;
+    }
+    /*for GITHUB*/
+    
+    #home #home-content h1{
+        font-size: 40px;
+    }
+   
+    #change-text .firs-text{
+       
+        font-size: 25px;
+    }
+     #change-text .sec-text{
+       font-size: 18px;
+    }
+    .sec-text li{
+         font-size: 18px;
+     }
+    #home-content p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 400px;
+        
+            
+    }
+    #home-content #cv{
+        display: inline-flex;
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+        border-radius: 35px;
+         }
+   
+    #home-icon{
+        float: right;
+        margin: 0 10px;
+        position: relative;
+        top: 30px;
+        
+    }
+    .home-image{
+        padding-left: 90px;
+    }
+
+    /*for About*/
+.imgtext-container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
+       
+    }
+    .cardcontainer img{
+        width: 150px;
+        height: 250px;
+    }
+    
+    /*timeline*/
+    .timeline{
+        position: relative;
+        max-width: 1200px;
+        margin: 70px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .tcontainer left-c{
+        width: 300px;
+        height: 200px;
+    }
+    /*for footer*/
+ .fcontainer{
+   width: 900px;
+   margin: auto;
+
+ }
+ .footer-content{
+    width: 25%;
+   
+ }
+    
+
+    
+   
+ }
+/* for phones*/
+@media only screen and (min-width: 445px) and (max-width: 768px){
+ /*for Home*/
+  #home{
+       width: 100%;
+      height: 100%;
+       max-width: 1000px;
+      display: flex;
+      flex-direction: column-reverse;
+     }
+    #home #home-content{
+    margin:  auto;
+        
+    }
+    
+    #home #home-content h1{
+        font-size: 40px;
+    }
+   
+    #change-text .firs-text{
+       
+        font-size: 25px;
+    }
+     #change-text .sec-text{
+       font-size: 18px;
+    }
+    .sec-text li{
+         font-size: 18px;
+     }
+    #home-content p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 500px;
+        
+            
+    }
+    #home-content #cv{
+        display: inline-flex;
+        width: 120px;
+        height: 45px;
+        font-size: 15px;
+        border-radius: 35px;
+         }
+   
+    #home-icon{
+        float: right;
+        margin: 0 50px;
+        position: relative;
+        top: 30px;
+        
+    }
+.home-image {
+    height: 300px;
+    width: 300px;
+    margin: 80px 60px 120px 0px;
+}
+
+/*for About*/
+.block button{
+    margin-right: 500px;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.cardcontainer img{
+    margin-left: 80px;
+}
+.cardcontainer .cardbody{
+    margin-left: 120px;
+    margin-top: 0;
+}
+
+.cardfooter{
+    margin-left: 100px;
+    width: 100%;
+}
+/*for timmeline*/
+  /*timeline*/
+  .timeline{
+    width: 100%;
+    max-width: 1000px;
+    margin: 70px auto;
+}
+.timeline h4{
+    color: #efefef;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.tcontainer{
+    position: relative;
+    width: 80%;
+    padding: 10px 30px;
+    margin-left: 60px;
+  
+    color: #000;
+    
+}
+.tcontainer left-c{
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+.tbox{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.tcontainer img{
+   position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+
+.right-c img{
+    left:-20px;
+}
+.tbox h2{
+    font-weight: 600;
+
+}
+.tbox small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.left-c-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+    
+    
+}
+
+.right-c-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 100;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -14px;
+    
+    
+}
+ /*for Sakuhinn*/
+ #project{
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+
+ }
+ #project img{
+   width: 150px;
+   height: 80px;
+ }
+ 
+
+ /*for footer*/
+ .fcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+
+ }
+}
